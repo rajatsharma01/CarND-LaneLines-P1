@@ -34,9 +34,14 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 	* For minimum value of y co-ordinate of all points, draw the line using output coefficients from polyfit
 	* To avoid jittery change in lane lines while processing video images, added a LineGenerator class to store previously computed coefficient values and number of points. This infomation is used to average out values of new coefficient values for current set of points.
 
-Following is the sample output image of above pipeline for solidYellowCurve2.jpg image:
+Following is the sample output images of above pipeline:
 
-![solidYellowCurve2][./test_images_output/solidYellowCurve2.jpg]
+<img src="test_images_output/solidWhiteCurve.jpg" width="480" alt="Combined Image" />
+<img src="test_images_output/solidWhiteRight.jpg" width="480" alt="Combined Image" />
+<img src="test_images_output/solidYellowCurve.jpg" width="480" alt="Combined Image" />
+<img src="test_images_output/solidYellowCurve2.jpg" width="480" alt="Combined Image" />
+<img src="test_images_output/solidYellowLeft.jpg" width="480" alt="Combined Image" />
+<img src="test_images_output/whiteCarLaneSwitch.jpg" width="480" alt="Combined Image" />
 
 
 ### 2. Identify potential shortcomings with your current pipeline
